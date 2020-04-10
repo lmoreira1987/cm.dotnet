@@ -1,0 +1,6 @@
+C:\Personal-Projects\validate-expression\Validate-Arithmetic-Expression\Validate-Arithmetic-Expression\bin\Debug\Validate-Arithmetic-Expression.exe.config
+C:\Personal-Projects\validate-expression\Validate-Arithmetic-Expression\Validate-Arithmetic-Expression\bin\Debug\Validate-Arithmetic-Expression.exe
+C:\Personal-Projects\validate-expression\Validate-Arithmetic-Expression\Validate-Arithmetic-Expression\bin\Debug\Validate-Arithmetic-Expression.pdb
+C:\Personal-Projects\validate-expression\Validate-Arithmetic-Expression\Validate-Arithmetic-Expression\obj\Debug\Validate-Arithmetic-Expression.csprojResolveAssemblyReference.cache
+C:\Personal-Projects\validate-expression\Validate-Arithmetic-Expression\Validate-Arithmetic-Expression\obj\Debug\Validate-Arithmetic-Expression.exe
+C:\Personal-Projects\validate-expression\Validate-Arithmetic-Expression\Validate-Arithmetic-Expression\obj\Debug\Validate-Arithmetic-Expression.pdb

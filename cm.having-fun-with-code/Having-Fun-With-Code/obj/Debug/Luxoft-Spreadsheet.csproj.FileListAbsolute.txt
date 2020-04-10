@@ -1,0 +1,6 @@
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\bin\Debug\Having-Fun-With-Code.exe.config
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\bin\Debug\Having-Fun-With-Code.exe
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\bin\Debug\Having-Fun-With-Code.pdb
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\obj\Debug\Luxoft-Spreadsheet.csprojResolveAssemblyReference.cache
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\obj\Debug\Having-Fun-With-Code.exe
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\obj\Debug\Having-Fun-With-Code.pdb

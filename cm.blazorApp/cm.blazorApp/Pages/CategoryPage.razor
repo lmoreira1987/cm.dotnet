@@ -1,0 +1,161 @@
+﻿@page "/category"
+@using cm.blazorApp.Data
+@using cm.blazorApp.Services
+
+@inherits OwningComponentBase<CategoriesService>
+@*@inject AuthenticationStateProvider AuthenticationStateProvider*@
+
+<AuthorizeView>
+    <Authorized Context="Auth">
+        @if (categories == null)
+        {
+            <p><em>Loading or No categories exist</em></p>
+        }
+        else
+        {
+            <div class="container border p-3">
+                <div class="row">
+                    <div class="col-5">
+                        <h3 class="text-info">Category List</h3>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn btn-info form-control" @onclick="AddNewCategory">
+                            Add New Category
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row pt-4">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Category Name</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in categories)
+                            {
+                                <tr>
+                                    <td>@item.Name</td>
+                                    <td>
+                                        <button class="btn btn-primary" style="width:150px;" @onclick="(()=>EditCategory(item))">Edit</button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+
+        @if (ShowPopup)
+        {
+            <div class="modal" tabindex="-1" style="display:block" role="dialog">
+                <EditForm Model="category" OnValidSubmit="@ValidSubmit">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="text-info">@(category.Id != 0 ? "Update" : "Create") Category</h3>
+                                <button type="button" class="close" @onclick="ClosePopup">
+                                    <span aria-hidden="true">X</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <DataAnnotationsValidator />
+                                <ValidationSummary />
+                                <div class="row">
+                                    <div class="col-9">
+                                        <div class="row py-2">
+                                            <div class="col-4">
+                                                Category Name
+                                            </div>
+                                            <div class="col-8">
+                                                <input class="form-control" type="text" @bind="category.Name" />
+                                            </div>
+                                        </div>
+                                        <div class="row py-2">
+                                            <div class="offset-4 col">
+                                                <button class="btn btn-primary form-control" type="submit">Submit</button>
+                                            </div>
+                                            @if (category.Id > 0)
+                                            {
+                                                <div class="offset-4 col">
+                                                    <button class="btn btn-danger form-control" type="submit" @onclick="DeleteCategory">Delete</button>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </EditForm>
+            </div>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <p>You're not signed in.</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+@code {
+
+    //[CascadingParameter]
+    //private Task<AuthenticationState> authenticationState { get; set; }
+
+    List<Category> categories;
+    Category category = new Category();
+    bool ShowPopup = false;
+
+    protected override void OnInitialized()
+    {
+        //var user = (await authenticationState).User;
+        //var emailOfUser = user.Identity.Name;
+        categories = Service.GetCategories();
+    }
+
+    void AddNewCategory()
+    {
+        category = new Category();
+        category.Id = 0;
+        ShowPopup = true;
+    }
+
+    void EditCategory(Category category)
+    {
+        this.category = category;
+        ShowPopup = true;
+    }
+
+    void DeleteCategory()
+    {
+        ShowPopup = false;
+        var result = Service.DeleteCategory(category);
+        categories.Clear();
+        categories = Service.GetCategories();
+    }
+
+    void ClosePopup()
+    {
+        ShowPopup = false;
+    }
+
+    void ValidSubmit()
+    {
+        var result = false;
+        ShowPopup = false;
+
+        if (category.Id > 0)
+        {
+            result = Service.UpdateCategory(category);
+        }
+        else
+        {
+            result = Service.CreateCategory(category);
+        }
+
+        categories = Service.GetCategories();
+    }
+}

@@ -1,0 +1,10 @@
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\bin\Release\Having-Fun-With-Code.exe.config
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\bin\Release\Having-Fun-With-Code.exe
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\bin\Release\Having-Fun-With-Code.pdb
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\bin\Release\Ninject.dll
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\bin\Release\Ninject.Web.Common.dll
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\bin\Release\Ninject.xml
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\bin\Release\Ninject.Web.Common.xml
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\obj\Release\HFWC.Luxoft.Spreadsheet.csprojResolveAssemblyReference.cache
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\obj\Release\Having-Fun-With-Code.exe
+C:\Personal-Projects\having-fun-with-code\Having-Fun-With-Code\obj\Release\Having-Fun-With-Code.pdb

@@ -1,0 +1,20 @@
+﻿@page "/parentcomponent"
+
+<h1 class="text-danger">Parent Child Component</h1>
+
+<cm.blazorApp.Pages.Components.ChildComponent 
+    OnClickMethod="@ShowMessage"
+    Title="This title is passed from Parent">
+    This content is displayed between the child component tag inside parent component.
+</cm.blazorApp.Pages.Components.ChildComponent>
+
+<p><b>@messageText</b></p>
+
+@code {
+    private string messageText;
+
+    private void ShowMessage()
+    {
+        messageText = "Blazing text from parent!";
+    }
+}

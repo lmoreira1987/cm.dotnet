@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "travelling.salesman.problem.app", "travelling.salesman.problem.app\travelling.salesman.problem.app.csproj", "{C1FF9F7E-DA11-4455-862D-E8F210F4FD23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "travelling.salesman.problem.test", "travelling.salesman.problem.test\travelling.salesman.problem.test.csproj", "{1ED45A48-CE6E-4DE0-8429-EFFB9709990B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1FF9F7E-DA11-4455-862D-E8F210F4FD23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FF9F7E-DA11-4455-862D-E8F210F4FD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FF9F7E-DA11-4455-862D-E8F210F4FD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FF9F7E-DA11-4455-862D-E8F210F4FD23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED45A48-CE6E-4DE0-8429-EFFB9709990B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED45A48-CE6E-4DE0-8429-EFFB9709990B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED45A48-CE6E-4DE0-8429-EFFB9709990B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED45A48-CE6E-4DE0-8429-EFFB9709990B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

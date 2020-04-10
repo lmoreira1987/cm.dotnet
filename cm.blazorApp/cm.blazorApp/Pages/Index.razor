@@ -1,0 +1,20 @@
+﻿@page "/"
+
+@using cm.blazorApp.Services
+@using cm.blazorApp.Data
+@inherits OwningComponentBase<ProductService>
+
+<div class="row">
+    @foreach (var product in listProduct)
+    {
+        <cm.blazorApp.Pages.Components.IndividualProduct product="product"></cm.blazorApp.Pages.Components.IndividualProduct>
+    }
+</div>
+
+@code {
+    List<Product> listProduct = new List<Product>();
+    protected override void OnInitialized()
+    {
+        listProduct = Service.GetProducts();
+    }
+}

@@ -1,0 +1,11 @@
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\bin\Debug\HFWC-Test.dll
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\bin\Debug\HFWC-Test.pdb
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\obj\Debug\HFWC.Test.csprojResolveAssemblyReference.cache
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\obj\Debug\HFWC-Test.dll
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\obj\Debug\HFWC-Test.pdb
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\bin\Debug\Castle.Core.dll
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\bin\Debug\Moq.dll
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\bin\Debug\Castle.Core.xml
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\bin\Debug\Moq.xml
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\bin\Debug\Having-Fun-With-Code.exe
+C:\Personal-Projects\having-fun-with-code\HFWC-Test\bin\Debug\Having-Fun-With-Code.pdb

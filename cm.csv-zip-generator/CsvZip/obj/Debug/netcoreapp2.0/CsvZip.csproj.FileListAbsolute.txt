@@ -1,0 +1,22 @@
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\bin\Debug\netcoreapp2.0\CsvZip.deps.json
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\bin\Debug\netcoreapp2.0\CsvZip.runtimeconfig.json
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\bin\Debug\netcoreapp2.0\CsvZip.runtimeconfig.dev.json
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\bin\Debug\netcoreapp2.0\CsvZip.dll
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\bin\Debug\netcoreapp2.0\CsvZip.pdb
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.csprojResolveAssemblyReference.cache
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.csproj.CoreCompileInputs.cache
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.AssemblyInfoInputs.cache
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.AssemblyInfo.cs
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.dll
+C:\Users\133667\Documents\Visual Studio 2017\Projects\CsvZipSolution\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.pdb
+C:\Projects\CsvZipGenerator\CsvZip\bin\Debug\netcoreapp2.0\CsvZip.deps.json
+C:\Projects\CsvZipGenerator\CsvZip\bin\Debug\netcoreapp2.0\CsvZip.runtimeconfig.json
+C:\Projects\CsvZipGenerator\CsvZip\bin\Debug\netcoreapp2.0\CsvZip.runtimeconfig.dev.json
+C:\Projects\CsvZipGenerator\CsvZip\bin\Debug\netcoreapp2.0\CsvZip.dll
+C:\Projects\CsvZipGenerator\CsvZip\bin\Debug\netcoreapp2.0\CsvZip.pdb
+C:\Projects\CsvZipGenerator\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.csprojResolveAssemblyReference.cache
+C:\Projects\CsvZipGenerator\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.csproj.CoreCompileInputs.cache
+C:\Projects\CsvZipGenerator\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.AssemblyInfoInputs.cache
+C:\Projects\CsvZipGenerator\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.AssemblyInfo.cs
+C:\Projects\CsvZipGenerator\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.dll
+C:\Projects\CsvZipGenerator\CsvZip\obj\Debug\netcoreapp2.0\CsvZip.pdb
